@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  reactStrictMode: true,
+  // image hosting
+  images: {
+    domains: ["www.pngfind.com"],
+  },
+};
 
 export default nextConfig;
