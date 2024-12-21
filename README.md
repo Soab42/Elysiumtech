@@ -54,25 +54,35 @@ A sleek and intuitive property management dashboard built with Next.js and Tailw
 ```
 property-dashboard/
 ├── app/
-│   └── layout.js
-│   └── page.js
-│   └── global.css
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.js          # Root layout component
+│   └── page.js            # Home page component
+│
 ├── components/
+│   ├── dashboard/
+│   │   ├── AddPropertyForm.js    # Form for adding new properties
+│   │   ├── Analytics.js          # Analytics visualization component
+│   │   ├── ChartSection.js       # Charts and graphs component
+│   │   ├── GrowthCard.js         # Growth metrics display
+│   │   ├── NewActivity.js        # Recent activity feed
+│   │   └── PropertyList.js       # List of properties component
+│   │
 │   ├── toast/
-│   │   └── index.js
-│   │   └── ToastContainer.js
-│   ├── AddPropertyForm.js
-│   ├── Analytics.js
-│   ├── ChartSection.js
-│   ├── DarkMoodToogle.js
-│   ├── GrowthCard.js
-│   ├── MainNav.js
-│   └── NewActivity.js
-│   └── PropertyList.js
-│   └── ThemeProvider.js
-│   └── UseNav.js
+│   │   ├── index.js              # Toast notification entry
+│   │   └── ToastContext.js       # Toast context provider
+│   │
+│   ├── DarkMoodToogle.js         # Dark mode toggle component
+│   ├── Footer.js                 # Footer component
+│   ├── MainNav.js               # Main navigation component
+│   ├── MoodToggle.js            # Theme toggle component
+│   ├── ThemeProvider.js         # Theme context provider
+│   └── UseNav.js                # User navigation component
+│
 ├── lib/
-└── public/
+│   └── utils.js                 # Utility functions
+│
+└── public/                      # Static assets
 ```
 
 ## Key Components
@@ -110,4 +120,3 @@ Soab Mahmud Syfuddhin
 - Email: <syfuddhin@gmail.com>
 
 Feel free to reach out for any questions!
-# Elysiumtech

@@ -4,7 +4,7 @@ import { HousePlug } from "lucide-react";
 import { Plus } from "lucide-react";
 import { useState } from "react";
 
-export function PropertyList({ properties, setIsModalOpen }) {
+export default function PropertyList({ properties, setIsModalOpen }) {
   const [typeFilter, setTypeFilter] = useState("all");
   const [statusFilter, setStatusFilter] = useState("all");
 

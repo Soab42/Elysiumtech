@@ -1,15 +1,13 @@
 "use client";
 
-import { AddPropertyForm } from "@/components/AddPropertyForm";
-import Analytics from "@/components/Analytics";
-import ChartSection from "@/components/ChartSection";
-import GrowthCard from "@/components/GrowthCard";
-import ActivitySection from "@/components/NewActivity";
-import { PropertyList } from "@/components/PropertyList";
-import NumberFlow from "@number-flow/react";
-import { TrendingUp } from "lucide-react";
-import { ChartBar } from "lucide-react";
-import { Plus, X } from "lucide-react";
+import AddPropertyForm from "@/components/dashboard/AddPropertyForm";
+import Analytics from "@/components/dashboard/Analytics";
+import ChartSection from "@/components/dashboard/ChartSection";
+import GrowthCard from "@/components/dashboard/GrowthCard";
+import ActivitySection from "@/components/dashboard/NewActivity";
+import PropertyList from "@/components/dashboard/PropertyList";
+
+import { X } from "lucide-react";
 import { useEffect, useState } from "react";
 
 export default function DashboardPage() {

@@ -7,6 +7,7 @@ import "./globals.css";
 import { ToastProvider } from "@/components/toast/ToastContext";
 import { Vegan } from "lucide-react";
 import Link from "next/link";
+import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -43,6 +44,7 @@ function RootLayout({ children }) {
                 </div>
               </header>
               <main className="flex-1 mt-10">{children}</main>
+              <Footer />
             </div>
           </ToastProvider>
         </ThemeProvider>

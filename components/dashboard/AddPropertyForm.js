@@ -1,8 +1,8 @@
 "use client";
 
-import { useToast } from "./toast/ToastContext";
+import { useToast } from "../toast/ToastContext";
 
-export function AddPropertyForm({ onSubmit }) {
+export default function AddPropertyForm({ onSubmit }) {
   const { addToast } = useToast();
   const handleSubmit = (e) => {
     e.preventDefault();
