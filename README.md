@@ -1,36 +1,113 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Modern Property Management Dashboard
+
+A sleek and intuitive property management dashboard built with Next.js and Tailwind CSS, featuring real-time analytics, property tracking, and modern UI components.
+
+## Live Demo
+
+🌐 Experience the dashboard live: [Elysiumtech Property Dashboard](https://elysiumtech.vercel.app)
+
+## Features
+
+- 📊 Real-time analytics dashboard
+- 🏢 Property management system
+- 💰 Revenue tracking
+- 📈 Occupancy monitoring
+- 🎨 Modern UI with dark mode support
+- 📱 Fully responsive design
+- 🔄 Animated statistics
+- 📋 Property listing management
+
+## Tech Stack
+
+- Next.js
+- Tailwind CSS
+- Recharts
+- NumberFlow
+- Lucide Icons
+- LocalStorage for data persistence
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+   ```bash
+   git clone https://github.com/soab42/Elysiumtech.git
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   cd Elysiumtech
+   npm install
+   ```
+
+3. Run the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open <http://localhost:3000> in your browser.
+
+## Project Structure
+
+```
+property-dashboard/
+├── app/
+│   └── layout.js
+│   └── page.js
+│   └── global.css
+├── components/
+│   ├── toast/
+│   │   └── index.js
+│   │   └── ToastContainer.js
+│   ├── AddPropertyForm.js
+│   ├── Analytics.js
+│   ├── ChartSection.js
+│   ├── DarkMoodToogle.js
+│   ├── GrowthCard.js
+│   ├── MainNav.js
+│   └── NewActivity.js
+│   └── PropertyList.js
+│   └── ThemeProvider.js
+│   └── UseNav.js
+├── lib/
+└── public/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Key Components
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Dashboard
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Analytics cards with real-time statistics
+- Property occupancy tracking demo
+- Revenue monitoring demo
+- Activity timeline demo
+- Growth analytics demo
 
-## Learn More
+### Property Management
 
-To learn more about Next.js, take a look at the following resources:
+- Add new properties
+- Track property status
+- Monitor occupancy rates demo
+- Revenue tracking per property
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### User Interface
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Dark/Light mode toggle
+- Responsive navigation
+- Modern card layouts
+- Interactive charts
+- Animated statistics
 
-## Deploy on Vercel
+## Contact
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Soab Mahmud Syfuddhin
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- GitHub: [@soab42](https://github.com/soab42)
+- Project: [Elysiumtech](https://github.com/soab42/Elysiumtech)
+- Phone: +880 1644556543
+- Email: <syfuddhin@gmail.com>
+
+Feel free to reach out for any questions!
+# Elysiumtech
